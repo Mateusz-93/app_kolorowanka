@@ -34,7 +34,10 @@ st.markdown('<h4 class="centered-text">Zanim zaczniesz zabawę - przeczytaj o st
 
 env = dotenv_values(".env")
 
-
+if 'QDRANT_URL' in st.secrets:
+    env["QDRANT_URL"] = st.secrets["QDRANT_URL"]
+if 'QDRANT_API_KEY' in st.secrets:
+    env["QDRANT_API_KEY"] = st.secrets["QDRANT_API_KEY"]
 
 
 
