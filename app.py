@@ -19,7 +19,8 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Wyświetlamy tytuł z zastosowaniem klasy CSS
-st.markdown('<h1 class="centered-title">App\'ka Kolorowanka</h1>', unsafe_allow_html=True)
+st.markdown('<h1 class="centered-title">✏️ Pencil Master 📖</h1>', unsafe_allow_html=True)
+st.markdown('<h2 class="centered-title">kreatywna zabawa ze Sztuczną Inteligencją</h2>', unsafe_allow_html=True)
 
 st.markdown("""
     <style>
